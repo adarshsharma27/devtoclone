@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css2?family=Epilogue&display=swap");
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Epilogue", sans-serif;
+}
+
+.top-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+.top-header img {
+    width: 6%;
+}
+.product-card .img-fluid {
+    width: 100%;
+    object-fit: cover;
+}
+
+.bg-dark {
+    background-color: #c4c2c278 !important;
+}
+
+a {
+    color: #000;
+    font-weight: 700;
+}
+
+a,
+a:hover {
+    text-decoration: none;
+}
+
+.btn-primary {
+    background-color: #6f42c1;
+    border-color: #6f42c1;
+    font-family: "Epilogue", sans-serif;
+}
+.product-card {
+    width: 100%;
+    height: auto;
+    box-shadow: 0 5px 35px 0 rgb(0 0 0 / 8%);
+    background-color: #fff;
+    border-radius: 5px;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content: space-evenly;
+    justify-content: space-evenly;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+    -webkit-align-content: center;
+    align-content: center;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    margin: 15px auto;
+}
+
+.product-card h3 {
+    font-size: 1.4rem;
+    line-height: 1.6rem;
+    padding: 4px 0px;
+    color: #4c505d;
+    margin: 0;
+}
+
+.product-card p {
+    font-size: 1rem;
+    letter-spacing: 0.1px;
+    line-height: 1.6rem;
+    color: #9fabb2;
+}
+
+.product-image-caption {
+    padding: 15px;
+}
+
+.product-image-txt h4 {
+    text-transform: capitalize;
+    font-size: 1rem;
+    font-weight: 600;
+    margin: 5px 0px;
+}
+
+.pagination {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.pagination-conatiner {
+    border-top: 1px solid #c0bcbc;
+    border-bottom: 1px solid #c0bcbc;
+}
+.tags {
+    background-color: #6f42c1;
+    color: #fff;
+    padding: 10px;
+    border-radius: 2px;
+}
+
+.profile-image {
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
+    border-radius: 50%;
+    box-shadow: 0px 5px 8px #d7d0d0;
+}
+svg {
+    width: 1.7rem;
+    height: 1.7rem;
+    color: #6f42c1;
+}
+
+.views {
+    border-top: 1px solid #999;
+    border-bottom: 1px solid #999;
+}
