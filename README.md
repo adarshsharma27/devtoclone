@@ -4,4 +4,4 @@
 ---
 > ![Website](public/images/screenshotapp.png)
 > ![Website](public/images/screenshotapp2.png)
-> ### [LiveWebsite](https://react-foodap.netlify.app/)
+> ### [LiveWebsite](https://react-devtoclone.netlify.app/)
