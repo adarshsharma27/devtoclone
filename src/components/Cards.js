@@ -29,7 +29,7 @@ const Cards = ({ user, cover_image, title, description, tag_list, created_at, ur
                                 <h3>{title}</h3>
                                 <h4 className="decription-1">By {user.username}</h4>
                                 <p className="decription-2">{DOMPurify.sanitize(description, { USE_PROFILES: { html: false } })}</p>
-                                <p className="decription-2">
+                                <p className="decription-2 mb-tags">
                                     {tag_list.map((element, index) => {
                                         return (
                                             <span

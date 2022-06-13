@@ -118,3 +118,18 @@ svg {
     border-top: 1px solid #999;
     border-bottom: 1px solid #999;
 }
+
+@media(max-width:596px){
+    .top-header img {
+        width: auto;
+    }
+    .mb-tags{
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        flex-direction: column;
+    }
+    .tags {
+        margin: 2px 0px;
+    }
+}
